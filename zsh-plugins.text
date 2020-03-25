@@ -15,3 +15,8 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=white'
 
 
 source ~/.zshrc
+
+
+======== Add path vs code into zsh ===========
+- code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
+
